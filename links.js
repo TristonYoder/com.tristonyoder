@@ -48,7 +48,8 @@ const PROJECTS = [
   {
     name: "Photography",
     tagline: "elizabethallen.photography",
-    iconClass: "fa-solid fa-camera",
+    icon: "icons/elizabethallen.png",
+    iconRounded: true,
     description: "Caroline and I shoot weddings together!",
     links: {
       website: "https://elizabethallen.photography",
