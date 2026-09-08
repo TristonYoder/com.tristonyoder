@@ -59,10 +59,10 @@ const PROJECTS = [
     tags: ["photography"],
   },
   {
-    name: "Fishers Services",
+    name: "Fishers Service Review & Cue-to-cues",
     tagline: "YouTube playlist",
     iconClass: "fa-brands fa-youtube",
-    description: "Recordings of Fishers campus services.",
+    description: "Recordings of Fishers campus service reviews and cue-to-cues.",
     links: {
       website: "https://www.youtube.com/playlist?list=PL1wveuCKBvPeDRhaRLpXgRY5h3Mo4iBcE",
     },
