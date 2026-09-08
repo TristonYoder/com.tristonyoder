@@ -58,4 +58,14 @@ const PROJECTS = [
     },
     tags: ["photography"],
   },
+  {
+    name: "Fishers Services",
+    tagline: "YouTube playlist",
+    iconClass: "fa-brands fa-youtube",
+    description: "Recordings of Fishers campus services.",
+    links: {
+      website: "https://www.youtube.com/playlist?list=PL1wveuCKBvPeDRhaRLpXgRY5h3Mo4iBcE",
+    },
+    tags: ["youtube"],
+  },
 ];
