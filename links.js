@@ -19,7 +19,8 @@ const PROJECTS = [
     name: "Production Knowledge Base",
     tagline: "wiki",
     iconClass: "fa-solid fa-book-open",
-    description: "Playbook, gear manuals, and system procedures for TPCC production.",
+    description:
+      "Playbook, gear manuals, and system procedures for TPCC production. If we tried something new and you're asking what it was, it's probably in here.",
     links: {
       website: "https://prodwiki.tpcc.org/s/d966661f-6230-4b9d-920a-d0b8b1a1907d",
     },
