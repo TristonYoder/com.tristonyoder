@@ -41,6 +41,11 @@ function linkButtons(links) {
       `<a class="btn btn-dashed-accent" href="${links.download}" target="_blank" rel="noopener">Download ↓</a>`
     );
   }
+  if (links.portfolio) {
+    buttons.push(
+      `<a class="btn" href="${links.portfolio}" target="_blank" rel="noopener">Portfolio ↗</a>`
+    );
+  }
   if (links.repo) {
     buttons.push(
       `<a class="btn" href="${links.repo}" target="_blank" rel="noopener">Source ↗</a>`
@@ -220,6 +225,10 @@ function buildHead(project, { big } = {}) {
       icon.replaceWith(el("div", `card-icon-fallback${sizeClass}`, initials(project.name)));
     };
     head.appendChild(icon);
+  } else if (project.iconClass) {
+    head.appendChild(
+      el("div", `card-icon-fallback${sizeClass}`, `<i class="${project.iconClass}"></i>`)
+    );
   } else {
     head.appendChild(el("div", `card-icon-fallback${sizeClass}`, initials(project.name)));
   }
